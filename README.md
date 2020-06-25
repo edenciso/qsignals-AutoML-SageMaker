@@ -38,5 +38,5 @@ Confusion Matrix
 
 0 | 372 <- true positives, or number of good Qsignals predicted for the day
 
-Accuracy = 1.0
+Classification Accuracy = 1.0
 
