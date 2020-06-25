@@ -1,5 +1,5 @@
 # QSignals ML daily predictions with AWS SageMaker Auto-ML 
-Swarmode's Qsignals are daily predicted trading signals for US equities.
+Swarmode's [Qsignals](https://www.swarmode.ai/products/qsignals/) are daily predicted trading signals for US equities.
 In this experiment we are using AWS SageMaker Studio to build and run a Machine Learning model using the Auto-pilot feature to predict the number of good daily trading signals in an out-of-sample test dataset.
 
 The experiment has two parts:
