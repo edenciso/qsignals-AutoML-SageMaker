@@ -15,6 +15,8 @@ After running the Auto-pilot experiment, SageMaker created two Jupyter notebooks
 * SageMakerAutopilotDataExplorationNotebook: A Data Exploration notebook with stats on the training dataset
 
 As expected, after completing the Auto-ML job, SageMaker defined the problem as Binary Classification to maximize the Accuracy quality metric of the trained model. In this case, the Accuracy metric will provide the percentage of times the model predicted the correct class, which is 'y' values in the 'goodsignal' target column.
+After the Auto-ML pilot job has analyzed the training dataset, SageMaker is building the pipeline with 10 ML models and two algorithms: Xgboost and Linear-learner.
+The job takes aproximately 30 mins to complete all three stages: analyzing data, feature engineering, and model tunning so we can chose the best tuning job and deploy the model to the SageMaker endpoint.
 
 2. Run the model with out-of-sample data to predict the number of accurately predicted QSignals
 
