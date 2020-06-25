@@ -20,5 +20,7 @@ The test dataset included predicted trading signals for one day.
 The code to upload the dataset, split the data, and call the prediction SageMaker endpoint is contained in the QStrades_test1 notebook.
 
 Additionally, there's a couple of YouTube videos to demo the end-to-end experiment.
-Part 1: https://youtu.be/Ht1fHJL0qDw
-Part 2: https://youtu.be/Ln7JNw_vH4Q
+
+Demo Part 1: https://youtu.be/Ht1fHJL0qDw
+
+Demo Part 2: https://youtu.be/Ln7JNw_vH4Q
