@@ -11,8 +11,8 @@ The target attribute name in the train dataset for which SageMaker will make pre
 Given the column values are 'y' (goodsignal) and 'n' (not good signal), we assume the Auto-pilot will suggest a Binary Classification type of problem to predict.
 
 After running the Auto-pilot experiment, SageMaker created two Jupyter notebooks:
-1. A list of ML candidates contained in the SageMakerAutopilotCandidateDefinitionNotebook
-2. A Data Exploration notebook with stats on the train dataset contained in the SageMakerAutopilotDataExplorationNotebook
+* SageMakerAutopilotCandidateDefinitionNotebook: A list of ML candidates contained
+* SageMakerAutopilotDataExplorationNotebook: A Data Exploration notebook with stats on the training dataset
 
 2. Run the model with out-of-sample data to predict the number of accurately predicted QSignals
 
