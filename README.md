@@ -14,6 +14,8 @@ After running the Auto-pilot experiment, SageMaker created two Jupyter notebooks
 * SageMakerAutopilotCandidateDefinitionNotebook: A list of ML candidates contained
 * SageMakerAutopilotDataExplorationNotebook: A Data Exploration notebook with stats on the training dataset
 
+As expected, after completing the Auto-ML job, SageMaker defined the problem as Binary Classification to maximize the Accuracy quality metric of the trained model. In this case, the Accuracy metric will provide the percentage of times the model predicted the correct class, which is 'y' values in the 'goodsignal' target column.
+
 2. Run the model with out-of-sample data to predict the number of accurately predicted QSignals
 
 The test dataset included predicted trading signals for one day.
