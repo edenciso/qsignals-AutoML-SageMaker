@@ -34,9 +34,9 @@ This are the out-of-sample observed results after calling the model endpoint wit
 
 Confusion Matrix
 
-182  0
+182   0
 
-0  372 <- true positives, or number of good Qsignals predicted for the day
+0   372 <- true positives, or number of good Qsignals predicted for the day
 
 Accuracy = 1.0 or 100%
 
