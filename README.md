@@ -4,7 +4,7 @@ In this experiment we are using AWS SageMaker Studio to build and run a Machine 
 
 The experiment has two parts:
 
-1. Run the Auto-ML pilot job to train the model using an historical QSignals dataset from AWS Data Exchange, and deploy the model to a prediction SageMaker endpoint.
+1. Run the Auto-ML pilot job to train the model using the QSignals historical dataset in [AWS Data Exchange](https://aws.amazon.com/marketplace/pp/prodview-ausl6zaqiknve?ref_=srh_res_product_title), and deploy the model to a prediction SageMaker endpoint.
 
 The ML model is trained using historical Qsignals data from 1/2/20 to 6/19/20. A train dataset sample is included in the Data Exploration notebook.
 The target attribute name in the train dataset for which SageMaker will make predictions is the column 'goodsignal'. Based on the dataset features, we expect the Auto-ML determine the best ML pipeline and algorithms to predict how many daily Qsignals are good to trade.
