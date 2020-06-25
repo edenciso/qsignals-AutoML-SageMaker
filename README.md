@@ -6,9 +6,9 @@ The experiment has two parts:
 
 1. Run the Auto-ML pilot job to train the model using an historical QSignals dataset from AWS Data Exchange, and deploy the model to a prediction SageMaker endpoint.
 
-The ML model is trained using historical Qsignals data from 1/2/20 to 6/19/20. Snippets of the dataset are included in the notebook.
-The target attribute name in the train dataset for which SageMaker will make predictions is the column 'goodsignal'
-Given the column values are 'y' (goodsignal) and 'n' (not good signal), we assume the Auto-pilot will suggest a Binary Classification type of problem to predict.
+The ML model is trained using historical Qsignals data from 1/2/20 to 6/19/20. A train dataset sample is included in the Data Exploration notebook.
+The target attribute name in the train dataset for which SageMaker will make predictions is the column 'goodsignal'. Based on the dataset features, we expect the Auto-ML determine the best ML pipeline and algorithms to predict how many daily Qsignals are good to trade.
+Given the column values are 'y' (goodsignal) and 'n' (not good signal), is expected the Auto-pilot job will suggest a Binary Classification type of problem to predict.
 
 After running the Auto-pilot experiment, SageMaker created two Jupyter notebooks:
 * SageMakerAutopilotCandidateDefinitionNotebook: A list of ML candidates contained
