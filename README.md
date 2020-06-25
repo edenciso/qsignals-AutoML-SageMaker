@@ -1,12 +1,12 @@
 # QSignals ML daily predictions with AWS SageMaker Auto-ML 
-Swarmode's Qsignals are daily equities predicted trading signals.
+Swarmode's Qsignals are daily predicted trading signals for US equities.
 In this experiment we are using AWS SageMaker Studio to build and run a Machine Learning model using the Auto-pilot feature to predict the number of good daily trading signals in an out-of-sample test dataset.
 
 The experiment has two parts:
 
-1. Run the Auto-ML pilot to train the model and deply the prediction endpoint using historical QSignals dataset from AWS Data Exchange
+1. Run the Auto-ML pilot job to train the model using an historical QSignals dataset from AWS Data Exchange, and deploy the model to a prediction SageMaker endpoint.
 
-The ML model is trained using historical Qsignals data from 1/2/20 to 6/19/20.
+The ML model is trained using historical Qsignals data from 1/2/20 to 6/19/20. Snippets of the dataset are included in the notebook.
 The target attribute name in the train dataset for which SageMaker will make predictions is the column 'goodsignal'
 Given the column values are 'y' (goodsignal) and 'n' (not good signal), we assume the Auto-pilot will suggest a Binary Classification type of problem to predict.
 
