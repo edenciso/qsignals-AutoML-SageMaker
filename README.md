@@ -29,7 +29,7 @@ Demo Part 1: https://youtu.be/Ht1fHJL0qDw
 
 Demo Part 2: https://youtu.be/Ln7JNw_vH4Q
 
-# Results:
+# Results
 These are the observed out-of-sample test results after calling the model endpoint with a 2,192 Qsignals dataset.
 
 Confusion Matrix
@@ -38,5 +38,5 @@ Confusion Matrix
 
 0 | 372 <- true positives, or number of good Qsignals predicted for the day
 
-Accuracy = 1.0 or 100%
+Accuracy = 1.0
 
