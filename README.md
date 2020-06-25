@@ -28,3 +28,12 @@ Additionally, there's a couple of YouTube videos to demo the end-to-end experime
 Demo Part 1: https://youtu.be/Ht1fHJL0qDw
 
 Demo Part 2: https://youtu.be/Ln7JNw_vH4Q
+
+# Results:
+This are the out-of-sample observed results after calling the model endpoint with the test dataset with 2192 Qsignals.
+
+Confusion Matrix
+182  0
+0  372 <- true positives, or number of good Qsignals predicted for the day
+Accuracy = 1.0 or 100%
+
