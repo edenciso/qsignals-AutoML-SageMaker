@@ -11,8 +11,8 @@ The target attribute name in the train dataset for which SageMaker will make pre
 Given the column values are binary: 'y' (goodsignal) and 'n' (not good signal), it is expected SageMaker will suggest a Binary Classification type of problem to model.
 
 After running the Auto-ML pilot experiment, SageMaker created two Jupyter notebooks:
-* SageMakerAutopilotCandidateDefinitionNotebook: A list of ML candidates contained
-* SageMakerAutopilotDataExplorationNotebook: A Data Exploration notebook with stats on the training dataset
+* SageMakerAutopilotCandidateDefinitionNotebook: A list of ML pipeline candidates, algorithms, hyperparameter tuning, model selection and deployent.
+* SageMakerAutopilotDataExplorationNotebook: contains dataset analysis, data split in training amnd validation, column analysis, and descriptive statistics.
 
 As expected, after completing the Auto-ML job, SageMaker defined the problem as Binary Classification to maximize the Accuracy quality metric of the trained model. In this case, the Accuracy metric will provide the percentage of times the model predicted the correct class, which is 'y' values in the 'goodsignal' target column.
 After the Auto-ML pilot job has analyzed the training dataset, SageMaker is building the pipeline with 10 ML models and two algorithms: Xgboost and Linear-learner.
