@@ -34,7 +34,7 @@ These are the observed out-of-sample test results after calling the model endpoi
 
 Confusion Matrix
 
-182 | 0
+1820 | 0
 
 0 | 372 <- true positives, or number of good Qsignals predicted for the day
 
